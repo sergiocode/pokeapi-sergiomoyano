@@ -1,0 +1,1 @@
+He hecho esta SPA con Vite, por lo que para ejecutarla se hace con npm run dev :)
