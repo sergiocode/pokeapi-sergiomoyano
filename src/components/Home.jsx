@@ -8,13 +8,13 @@ const Home = () => {
             <div id="carouselExampleControls" class="carousel slide carousel-inicio" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/src/assets/img/carousel1.jpeg" class="d-block w-100 carousel-image" alt="..."/>
+                        <img src="https://fondosmil.com/fondo/14723.jpg" class="d-block w-100 carousel-image" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src="/src/assets/img/carousel2.jpeg" class="d-block w-100 carousel-image" alt="..."/>
+                        <img src="https://images2.alphacoders.com/686/686188.jpg" class="d-block w-100 carousel-image" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src="/src/assets/img/carousel3.jpeg" class="d-block w-100 carousel-image" alt="..."/>
+                        <img src="https://i.pinimg.com/originals/1b/6c/ac/1b6cac6900112962ffc8a9633c0f858f.jpg" class="d-block w-100 carousel-image" alt="..."/>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
