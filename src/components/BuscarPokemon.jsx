@@ -11,7 +11,7 @@ const BuscarPokemon = () => {
         try {
             //Guardo en url la URL para hacer la conexión mediante axios
             const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`
-            //
+
             const res = await axios.get(url);
             toArray.push(res.data);
             //Busca en la API el tipo buscando en la posición [0] del JSON
@@ -34,7 +34,8 @@ const BuscarPokemon = () => {
 
     return (
         <div id="pokedex-root">
-            <h3>Buscar Pokemon</h3>
+            <h3 className="titulo-buscarPokemon">Buscar Pokemon</h3>
+            <p className="texto-buscarPokemon">Prueba a buscar un Pokemon por nombre o por ID 🤘🏽</p>
             <form onSubmit={handleSubmit}>
                 <label>
                     <input type="text" onChange={handleChange} />
